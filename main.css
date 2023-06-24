@@ -20,7 +20,7 @@ li, a, button{
    color:  var(--color);
    text-decoration: none;
 }
-
+/* header */
 header{
    display: flex;
    justify-content: space-between;
@@ -247,7 +247,7 @@ font-size:40px;
 
 .container{
    max-width: 1000px;
-   margin: auto;
+   margin: auto; 
    
 }
 
@@ -262,5 +262,9 @@ font-size:40px;
 
 .logo_link{
    padding-right: 14px;
+}
+
+.page_end{
+   float: right;
 }
 

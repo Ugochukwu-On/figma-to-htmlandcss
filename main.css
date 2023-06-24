@@ -1,0 +1,266 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+   font-family: Gilroy;
+   background-color: var(--background_color);
+
+}
+
+:root{
+   --main_color: hsla(216, 100%, 50%, 1);
+   --background_color:hsla(0, 0%, 100%, 1);
+   --color: #141414;
+   --font_bold: 600px; 
+   --grid: 1fr;
+}
+
+li, a, button{
+   font-weight: 400px;
+   color:  var(--color);
+   text-decoration: none;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 145px;
+   margin-left:40px;
+}
+
+.logo{
+   cursor: pointer;
+}
+
+.nav_list{
+   font-size: 18px;
+   list-style: none;
+   
+}
+
+.nav_list li{
+
+   display: inline-block;
+   padding: 0px 40px;
+   margin: 0px -20px;
+  
+ 
+}
+
+.list_link{
+   font-size: 16px;
+}
+
+.list_link li {
+   list-style: none;
+   display: inline-block;  
+}
+
+button{
+   margin-left:40px;
+   width: 142px;
+   padding: 12px 14px;
+   background-color: var(--main_color);
+   border: none;
+   border-radius: 100px;
+}
+
+button:hover{
+   background-color: rgb(1, 99, 244);
+   transition: all 0.3s ease 0s;
+}
+
+#urls{
+   color: var(--main_color);
+}
+
+#try{
+   color: var(--background_color);
+}
+
+#log_in_btn{
+   color: var(--main_color) ;
+}
+
+.content{
+   max-width: 1400px;
+   /* margin: auto; */
+   margin-left:150px;
+   margin-right: auto;
+}
+
+.page_title{
+   margin-top: 106px;
+}
+
+.page_title h1{
+   text-align: center;
+   max-width: 80%;
+   font-size: 48px;
+   line-height: 96px;
+}
+
+.page_title img{
+   position: relative;
+   top: -25px;
+   margin:0px 35% ;
+}
+
+.page_intro p{
+   font-size: 18px;
+   max-width: 55%;
+   text-align: center;
+   margin-left: 150px;  
+}
+
+.page_intro_btn{
+   display: flex;
+   justify-content: center;
+   margin-left:  -200px;
+   margin-top: 32px;
+}
+
+.page_intro_btn a{
+   margin-right: 56px;
+}
+
+.sign_up_btn{
+   background-color: var(--main_color);
+   color: var(--background_color);
+   padding: 12px 24px;
+   border-radius: 100px;
+   font-weight: 450;
+   width: 142px;
+   text-align: center;
+}
+
+.learn_more {
+   padding: 12px 24px ;
+   color: var(--main_color);
+   font-weight: 450;
+}
+
+.intro_card{
+/* background-image: url(/Assets/Vectortraingle.jpg);
+background-repeat: no-repeat; */
+margin-top: 80px;
+margin-left: 234px;
+} 
+
+.overlay{
+   display:flex;
+   margin-top:56px ;
+   margin-left: 250px;
+   
+}
+.overlay img{
+   max-width: 1000px;
+}
+.intro_card{
+   margin: auto;
+   margin-left: -5px;
+   background: hsla(0, 0%, 100%, 0.1);
+   backdrop-filter: blur(1000px);
+
+}
+.tri{
+margin-right: -250px;
+flex-shrink: 0;
+height: 251px;
+color: hsla(0, 7%, 97%, 1);
+}
+
+.platform{
+   justify-content: center; 
+   margin-left: -100px;
+   margin-top: 76px;
+}
+
+.flex{
+   display: flex;
+   justify-content: space-between;
+}
+
+.achievements_inner{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-items: center;
+
+   
+}
+
+.achievements_inner p{
+   max-width: 80%;
+   font-size: 16px;
+}
+
+
+.achievements_inner ul{
+   list-style: none;
+}
+
+
+
+#first_column h1{
+font-size:40px;
+}
+
+
+#single_blue{
+   color:var(--main_color);
+}
+
+.why_img{
+   margin-top: 128px;
+}
+
+.price_page{
+   margin-top: 130px;
+}
+.mid_card{
+   margin-top: 122px;
+   align-content: center;
+}
+.faq{
+   margin-top: 43px;
+}
+.low{
+   margin-top: 50px;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.first_footer ul{ 
+   list-style: none;
+}
+
+.first_footer{
+   
+   margin-top: 96px;
+   padding: 40px 0;
+   
+   
+}
+
+.container{
+   max-width: 1000px;
+   margin: auto;
+   
+}
+
+.firfooter_coloumn{
+  padding: 25px;
+}
+
+.social_link{
+   margin-top: 32px;
+   justify-content: space-between;
+}
+
+.logo_link{
+   padding-right: 14px;
+}
+
